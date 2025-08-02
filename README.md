@@ -4,7 +4,7 @@ This code is designed to monitor a user's heart rate and oxygen saturation level
 # Key features:
 
 
-🛜 Wi-Fi Connectivity:
+### 🛜 Wi-Fi Connectivity:
 
 Connects to a Wi-Fi network using the credentials provided (ssid and pass).
 Uses the Blynk platform for IoT connectivity, where the BLYNK_AUTH_TOKEN authenticates the device.
@@ -22,12 +22,13 @@ Sends the heart rate and SpO2 data to Blynk Virtual Pins (V1 and V2) for remote 
 
 </br>
 
-⚠️ Error Handling:
+### ⚠️ Error Handling:
 
 Checks the initialization status of the MAX30100 sensor and logs an error message if it fails to initialize.
 
 </br>
-🧑‍⚕️ Real-Time Health Monitoring:
+
+### 🧑‍⚕️ Real-Time Health Monitoring:
 
 Designed for real-time remote health tracking, making it suitable for applications such as personal health devices or patient monitoring systems.
 Setup Phase:
